@@ -72,7 +72,7 @@ margin-bottom: 30px;}
     }
   
     100% {
-      left: 100%;
+      left: 0%;
       color: rgb(243, 182, 50);
     }
   }
@@ -104,8 +104,7 @@ margin-bottom: 30px;}
     display: block;
     margin-left: -30px;
 }
-.menu__logo {
-}
+
 .burger div {
     margin-left: 50px;
 }

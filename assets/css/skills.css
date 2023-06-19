@@ -1,0 +1,20 @@
+.skills{
+    margin-left: 30px;
+}
+.skills__title{
+    text-align: center;
+    font-weight: 800;
+}
+.skills__line{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    align-items: center;
+    gap: 1em;
+    margin-left: 30px;
+}
+.skills__box {
+    background-color: rgb(155, 228, 179);
+    text-align: center;
+    padding: 1em 0.5em;
+    border-radius: 5px;
+}
