@@ -16,8 +16,9 @@
 }
 
 .hobbies__box {
-    background-color: rgb(250, 195, 43);
+    background-color: rgb(177, 132, 8);
     text-align: center;
     padding: 1em 0.5em;
     border-radius: 5px;
+    color: white;
 }

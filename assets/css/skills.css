@@ -13,8 +13,9 @@
     margin-left: 30px;
 }
 .skills__box {
-    background-color: rgb(155, 228, 179);
+    background-color: rgb(55, 56, 56);
     text-align: center;
     padding: 1em 0.5em;
     border-radius: 5px;
+    color: white;
 }
