@@ -50,8 +50,8 @@ section.title{
 
 /*Sección About*/
 
-section.about{
-
+section .about{
+padding: 2em;
 }
 
 /*Sección Hobbies*/

@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    padding: 50px;
+    align-items: flex-start;
+}
+
+.about__container {
+    display: block;
+}
+.about_title{
+    margin-block: 1em .5em;
+
+}
