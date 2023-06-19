@@ -1,0 +1,97 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(163, 163, 163);
+}
+
+.menu__header {
+  display: flex;
+}
+.menu__logo {
+  cursor: pointer;
+  width: 150px;
+  height: 100%;
+}
+
+.menu__title {
+  text-align: center;
+  padding: 10px;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.burger div {
+    border: 0rem;
+    padding: .2rem;
+    background: rgb(255, 255, 255);
+    margin: .3rem;
+    width: 2.5rem;
+}
+
+.menu__list__item {
+    list-style: content;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: space-between;
+    letter-spacing: .05em;
+    margin-right: 30px;
+margin-bottom: 30px;}
+
+.navbar {
+    display: inline-block;
+    width: 100%;
+    font-weight: 800;
+    background-color: rgb(163, 163, 163);
+}
+.menu__list.items {
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0px) {
+  .burger {
+    position: sticky;
+    background-color: rgb(163, 163, 163);
+    display: block;
+    }
+    
+    .menu__list.hide {
+        display: none;
+    }
+    
+.menu__list{
+    display: flex;
+    flex-Direction: column;
+    justify-content: left;
+    margin-left: -90px;
+    margin-top: 50px;
+}
+.menu__title {
+    display: block;
+    margin-left: 20px;
+}
+.menu__logo {
+    display: none;
+}
+}
+
+@media screen and (min-width: 600px) {
+  .burger {
+    display: none;
+  }
+  .menu__list.hide {
+    display: block;
+  }
+  .menu__title {
+    display: block;
+  }
+  .menu__logo {
+    display: block;
+  }
+}

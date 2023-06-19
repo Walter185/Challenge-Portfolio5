@@ -19,9 +19,6 @@ body {
     padding: 0;
     line-height: 1;
 }
-ol, ul,li {
-    list-style: none;
-}
 a{
     text-decoration: none;
     color: var(--cor-de-link);
