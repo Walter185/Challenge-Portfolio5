@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/imagenes/w.png">
-
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/menu.css">
@@ -34,28 +33,28 @@
                 <div></div>
             </div>
             <ul id="links" class="menu__list hide">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+                <li class="menu__list__item"><a href="#sobre-mi" id="about">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills" id="skills">Habilidades</a></li>
+                <li class="menu__list__item"><a href="#hobbies" id="hobbies">Pasatiempos</a></li>
+                <li class="menu__list__item"><a href="#formacion" id="training">Formación</a></li>
+                <li class="menu__list__item"><a href="#xp" id="projects">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto" id="contact">Contacto</a></li>
+                <li class="menu__list__item"><img src="assets/imagenes/spanglish.png" class="banderas"><a id="switch-lang">Cambiar de Idioma</a></li>
             </ul>
         </nav>
     </section>
-
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
             <img class="title__profile" src="assets/imagenes/foto.png">
             <div class="title__container">
-                <h2 class="title__bio">Hola, mi nombre es Walter y hago desarrollo web</h2>
+                <h2 class="title__bio" id="title">Hola, mi nombre es Walter y hago desarrollo web</h2>
+                
                 <h3 class="title__subsection">Soy Full-Stack y actualmente participando del proyecto Oracle ONE de Alura. Además, me estoy especializando en CyberSeguridad con IBM SkillSBuild.</h3>
             <div class="title__btn-download__container">
-                    <button
+                    <a
                       class="title__btn-download"
-                      href=""
-                      type="button"
+                      href="https://drive.google.com/file/d/1U6GozVXLQNiSFFimEc-mzh3PXAA_CRLy/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -64,7 +63,7 @@
                         class="fa-solid fa-download title__button-icon"
                         aria-hidden="true"
                       ></i>
-                    </button>
+                    </a>
                   </div>
 
                 <ul class="title__network">
@@ -77,7 +76,7 @@
         </div>
     </section>
     <div id="miniAnimation">
-        <p>Html-CSS-Js-React-Angular-GIT-Python-CRUD-Sprint</p>
+        <p>¿Por qué unirse al ejército cuando puedes ser un pirata? Steve Jobs (1955 - ∞ )</p>
       </div>  
     <!-- Sección sobre mi -->
     <section class="about" id="sobre-mi">
@@ -288,6 +287,7 @@
  <!-- Script del documento JavaScript -->
 <script src="validacion.js"></script>
 <script src="assets/js/index.js" type="text/javascript"></script>
-
+ <script src="assets/js/translator.js" type="text/javascript"></script>
+    </script>
 </body>
 </html>
