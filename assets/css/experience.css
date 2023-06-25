@@ -1,192 +1,261 @@
-
 .experience__section__title {
-    text-align: center;
-    padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
-
-
-.experience__img{
-    width: 60em;
-    display: flex;
-    margin-right: 30px;
-    margin-left: 30px;
+.experience__img {
+  width: 60em;
+  display: flex;
+  margin-right: 30px;
+  margin-left: 30px;
 }
-.experience__img2{
-    width: 60em;
-    display: flex;
-    margin-right: 30px;
-    margin-left: 30px;
+.experience__img2 {
+  width: 60em;
+  display: flex;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
+.experience__text {
+  font-weight: 300;
+  margin-left: 20px;
+}
+.experience__title {
+  margin-left: 20px;
+}
 
-.experience__text{
-    font-weight: 300;
+.experience__info-container {
+  margin-top: -250px;
+}
+
+@media screen and (min-width: 0) {
+  .experience {
+    width: 375px;
+  }
+  .experience__img,
+  .experience__img2,
+  .experience__img3 {
+    width: 375px;
+    margin-left: 10px;
+  }
+  .experiencia__botao--repo {
+    color: rgb(97, 97, 250);
+    background: white;
+    padding: 10px;
+    cursor: pointer;
     margin-left: 20px;
-}
-.experience__title{
+    border-color: rgb(97, 97, 250);
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-out,
+      box-shadow 0.5s ease-in;
+  }
+  .experience__botao--demo {
+    color: white;
+    background: rgb(97, 97, 250);
+    padding: 10px;
+    cursor: pointer;
     margin-left: 20px;
-}
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-out,
+      box-shadow 0.5s ease-in;
+  }
 
-.experience__info-container{
-    margin-top: -250px;
-}
+  .experiencia__botao--repo:hover {
+    color: white;
+    background: rgb(97, 97, 250);
+  }
 
-@media screen and (min-width: 0){
+  .experience__botao--demo:hover {
+    color: rgb(97, 97, 250);
+    background: white;
+  }
 
-}
-
-@media screen and (min-width: 768px){
-    .experience__box {
-        display: flex;
-        flex-direction: column;
-        margin-left: 30px;
-        margin-top: 50px;
-        
-    }
-    .experiencie__box2{
-        /* margin-top: 100px; */
-        margin-left: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-.experience__box3{
+  .experience__img2 {
+    position: absolute;
+    margin-top: -300px;
+  }
+  .experience__info2 {
+    margin-top: 250px;
+  }
+  .experience__box3 {
     display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .experience__img3 {
+    display: flex;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .experience {
+    width: 768px;
+  }
+  .experience__box {
+    display: flex;
+    width: 100%;
     flex-direction: column;
     margin-left: 30px;
     margin-top: 50px;
-
-}
-
-.experience__img3{
-    width: 60em;
+  }
+  .experiencie__box2 {
+    /* margin-top: 100px; */
+    margin-left: 20px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+  }
+  .experience__img {
+    width: 100%;
+  }
+  .experience__box3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 150px;
+  }
+
+  .experience__img3 {
+    display: flex;
+    width: 100%;
     margin-right: 20px;
     margin-left: 10px;
-}
-.experience__info-container3{
+    margin-top: -70px;
+  }
+  .experience__info-container3 {
     margin-top: 30px;
+  }
+  .experience__img2 {
+    position: absolute;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  .experience__info2 {
+    margin-top: 400px;
+  }
+  .experiencia__botao--repo {
+    color: rgb(97, 97, 250);
+    background: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-color: rgb(97, 97, 250);
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-out,
+      box-shadow 0.5s ease-in;
+  }
+  .experience__botao--demo {
+    color: white;
+    background: rgb(97, 97, 250);
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-out,
+      box-shadow 0.5s ease-in;
+  }
+
+  .experiencia__botao--repo:hover {
+    color: white;
+    background: rgb(97, 97, 250);
+  }
+
+  .experience__botao--demo:hover {
+    color: rgb(97, 97, 250);
+    background: white;
+  }
+  .experience__info {
+    margin-left: 20px !important;
+  }
+  .experience__repo {
+    margin-left: 20px;
+  }
 }
-    .experience__img2{
-        position: absolute;
-        margin-top: 30px;
-        margin-left: -1px;
-    }
-    .experience__info2{
-        margin-top: 450px;
-    }
-    .experiencia__botao--repo{
-        color: rgb(97, 97, 250);
-        background: white;
-        padding: 10px;
-        cursor: pointer;
-        margin-left: 20px;
-        border-color: rgb(97, 97, 250);
-        font-weight: 400;
-        border-radius: 5px;
-        box-shadow: 0 3px 6px grey;
-        transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
-    }
-    .experience__botao--demo{
-        color: white;
-        background: rgb(97, 97, 250);
-        padding: 10px;
-        cursor: pointer;
-        margin-left: 20px;
-        font-weight: 400;
-        border-radius: 5px;
-        box-shadow: 0 3px 6px grey;
-        transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
-    }
-    
-    .experiencia__botao--repo:hover{
-        color: white;
-        background: rgb(97,97,250);
-    }
-    
-    .experience__botao--demo:hover{
-        color: rgb(97, 97, 250);
-        background: white;
-    }
-    .experience__info{
-        margin-left: 20px !important;
-    }
-    .experience__repo{
-        margin-left: 20px;
-    }
-}
-@media screen and (min-width: 992px){
-    .experience {
-        display: block;
-        padding: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-left: 30px;
-        align-items: center;
-        justify-content: center;
-    
-    }
+@media screen and (min-width: 992px) {
+  .experience {
+    display: block;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .experiencie__box{
-        margin-top: 50px;
-        display: flex;
-    }
-    .experiencia__botao--repo{
-        color: rgb(97, 97, 250);
-        background: white;
-        padding: 20px;
-        cursor: pointer;
-        border-color: rgb(97, 97, 250);
-        font-weight: 600;
-        border-radius: 5px;
-        box-shadow: 0 3px 6px grey;
-        transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
-    }
-    .experience__botao--demo{
-        color: white;
-        background: rgb(97, 97, 250);
-        padding: 20px;
-        cursor: pointer;
-        font-weight: 600;
-        border-radius: 5px;
-        box-shadow: 0 3px 6px grey;
-        transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
-    }
-    
-    .experiencia__botao--repo:hover{
-        color: white;
-        background: rgb(97,97,250);
-    }
-    
-    .experience__botao--demo:hover{
-        color: rgb(97, 97, 250);
-        background: white;
-    }
+  .experiencie__box {
+    margin-top: 50px;
+    display: flex;
+  }
+  .experiencia__botao--repo {
+    color: rgb(97, 97, 250);
+    background: white;
+    padding: 20px;
+    cursor: pointer;
+    border-color: rgb(97, 97, 250);
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-out,
+      box-shadow 0.5s ease-in;
+  }
+  .experience__botao--demo {
+    color: white;
+    background: rgb(97, 97, 250);
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-out,
+      box-shadow 0.5s ease-in;
+  }
 
-    .experience__info{
-        margin-left: 20px;
-    }
-    .experiencie__box2{
-        margin-top: 100px;
-        margin-left: 30px;
-        display: flex;
-    }
+  .experiencia__botao--repo:hover {
+    color: white;
+    background: rgb(97, 97, 250);
+  }
 
-    
-.experience__box3{
+  .experience__botao--demo:hover {
+    color: rgb(97, 97, 250);
+    background: white;
+  }
+
+  .experience__info {
+    margin-left: 20px;
+  }
+  .experiencie__box2 {
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+  }
+
+  .experience__box3 {
     display: flex;
     padding: 20px;
     padding-top: 100px;
     padding-bottom: 20px;
     margin-left: 30px;
     align-items: center;
-}
+  }
 
-.experience__img3{
+  .experience__img3 {
     width: 55em;
     display: flex;
     margin-right: 30px;
     margin-left: 10px;
-}
+  }
 }

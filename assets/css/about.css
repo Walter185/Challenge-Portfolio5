@@ -1,15 +1,10 @@
-.about {
-    display: flex;
-    padding: 50px;
-    align-items: flex-start;
-    justify-content: center;
-
-}
 
 .about {
     display: block;
     width: 100%;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .about__title{
     margin-block: 1em .5em;
@@ -17,7 +12,7 @@
 
 }
 .about__paragraph {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 40px;
     margin-top: 20px;
     width: 100%;
@@ -27,15 +22,34 @@
 
 @media screen and (min-width: 0){
     .about__signature {
-        margin-left: 400px;
+        margin-left: 100px;
         padding: 30px;
     }
+    .about{
+        display: flex;
+        width: 375px;
+    }
+    .about__paragraph {
+        display: flex;
+        margin-left: 2px;
+        margin-right: 5px;
+}
+#miniAnimation{
+    display: none;
 }
 
+}
 @media screen and (min-width: 768px){
     .about__signature {
         margin-left: 500px;
         padding: 30px;
+    }
+    #miniAnimation{
+        display: none;
+    }
+    .about{
+        display: flex;
+        width: auto;
     }
   }
 
@@ -44,4 +58,13 @@
         margin-left: 800px;
         padding: 30px;
     }
+
+    
+.about {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 }

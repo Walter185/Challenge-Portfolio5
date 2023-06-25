@@ -181,9 +181,12 @@
 /* Responsive */
 
 @media screen and (min-width: 0){
-
+  .contact {
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 20px;
 }
-
+}
 @media screen and (min-width: 768px){
   .contact{
     width: 100%;

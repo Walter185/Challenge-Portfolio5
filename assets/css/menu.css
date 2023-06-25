@@ -102,8 +102,16 @@
     .menu__list.hide {
         display: none;
     }
-    
-.menu__list{
+    .menu {
+      font-size: smaller;
+      width: 100%;
+    }
+    .menu__logo {
+      width: 80px;
+      height: 50%;
+      margin-top: 10px;
+    }
+    .menu__list{
     display: flex;
     flex-Direction: column;
     justify-content: left;

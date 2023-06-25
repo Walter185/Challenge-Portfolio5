@@ -47,17 +47,36 @@
     background: white;
     color: rgb(97, 97, 250);
 }
-.title__network {
-    display: flex;
-    align-items: center;
-    gap: 3em;
-    margin-top: 5em;
-    margin-left: 100px;
-}
 
 
 @media screen and (min-width: 0){
-
+    .title__profile {
+        width: 200px;
+        max-height: 200px;
+    }
+    .title__div{
+        display: flex;
+        flex-direction: column;
+    }
+    .title__bio{
+        font-size: large;
+        display: flex;
+        font-weight: bold;
+        width: 375px;
+    }
+    .title__subsection{
+        font-size: medium;
+        display: flex;
+        width: 375px;
+    }
+    .title__network{
+        width: 375px;
+        display: flex;
+        margin-left: -15px;
+    }
+    .title__network li{
+        list-style: none;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -65,5 +84,15 @@
   }
 
 @media screen and (min-width: 992px){
-
+    .title__network {
+        display: flex;
+        align-items: center;
+        gap: 3em;
+        margin-top: 5em;
+        margin-left: 100px;
+    }
+    .title__div{
+        display: flex;
+        flex-direction: row;
+    }
 }
