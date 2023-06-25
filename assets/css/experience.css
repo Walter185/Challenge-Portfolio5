@@ -31,8 +31,7 @@
     width: 60em;
     display: flex;
     margin-right: 30px;
-    margin-left: 30px;
-    padding-top: 100px;
+    margin-left: 10px;
 }
 .experience__img{
     width: 60em;
@@ -63,4 +62,7 @@
     background: rgb(97, 97, 250);
     padding: 20px;
     cursor: pointer;
+}
+.experience__info-container{
+    margin-top: -250px;
 }

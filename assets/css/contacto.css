@@ -1,0 +1,12 @@
+.section__contact{
+    display: flex;
+    margin-left: 50px;
+    padding: 30px;
+
+}
+.formcontato__img{
+    width: 30em;
+    height: 30em;
+    display: flex;
+    margin-right: 30px;
+}

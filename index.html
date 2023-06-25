@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/title.css">
-    <link rel="stylesheet" href="assets//css/skills.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/hobbies.css">
-    <link rel="stylesheet" href="assets//css/experience.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
     <link rel="stylesheet" href="assets/css/academic.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -89,7 +91,7 @@
             <p class="about__paragraph" id="about4"> Actualmente me encuentro trabajando con forma freelance, pero me encuentro abierto a un puesto part-time o full-time asincrono. </p>
 
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png" class="about__signature">
+            <img src="assets/imagenes/signature.png" class="about__signature">
         </div>
     </section>
 
@@ -251,7 +253,7 @@
 
         <div class="experience__box3">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets/imagenes/mainero.png">
+            <img class="experience__img3" src="assets/imagenes/mainero.png">
             <div class="experience__info-container">
                 <h2 class="experience__title">Mainero</h2>
                 <h3 class="experience__text3">Proyecto Privado</h3>
@@ -267,23 +269,169 @@
         
 
         <!-- Sección de Contacto -->
-        <section class="formcontato" id="contacto">
+        <section class="section__contact" id="contacto">
+            <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="assets/imagenes/Contactenos.jpg">
+                </div>
             <div  class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\contact_image.png">
-                </div>
-                <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                  <h2 class="section__title section__title--minor" id="contact2">
+                Contacto
+                <span class="section__title--highlight">Me</span>
+              </h2>
+      
+              <p class="contact__text description__text">
+                Do you have any questions? Feel free to contact me.
+              </p>
+              
+                <div class="contact__content">
+                             
+                    <form class="form contact__form">
+                      <label for="honeypot" aria-hidden="true" hidden class="honeypot"
+                        >Keep this field blank</label
+                      >
+                      <input
+                        id="honeypot"
+                        class="honeypot"
+                        hidden
+                        autocomplete="off"
+                        aria-hidden="true"
+                        tabindex="-1"
+                      />
+          
+                      <div class="form__item">
+                        <label class="form__label" for="name">Name</label>
+          
+                        <p id="name-error" class="form__inline-error" aria-live="off"></p>
+          
+                        <div class="form__input-container">
+                          <input
+                            id="name"
+                            name="name"
+                            class="form__input"
+                            autocomplete="name"
+                            required
+                            aria-describedby="name-hint name-error"
+                          />
+          
+                          <div class="form__icon-container">
+                            <span class="form__icon form__icon--valid">
+                              <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                            <span class="form__icon form__icon--invalid">
+                              <i class="fa-solid fa-circle-xmark" aria-hidden="true"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="form__item">
+                        <label class="form__label" for="email">Email</label>
+                        <p id="email-hint" class="form__hint">
+                          Hint: The valid email format is. Example:
+                          <span class="form__hint--example">hello@world.com</span>.
+                        </p>
+          
+                        <p
+                          id="email-error"
+                          class="form__inline-error"
+                          aria-live="off"
+                        ></p>
+          
+                        <div class="form__input-container">
+                          <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            class="form__input"
+                            required
+                            aria-describedby="email--hint email-error"
+                          />
+          
+                          <div class="form__icon-container">
+                            <span class="form__icon form__icon--valid">
+                              <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                            <span class="form__icon form__icon--invalid">
+                              <i class="fa-solid fa-circle-xmark" aria-hidden="true"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="form__item">
+                        <label class="form__label" for="subject">Subject</label>
+                        <p id="subject-hint" class="form__hint">
+                          Hint: a word with at least 2 letters. Example:
+                          <span class="form__hint--example">Hire</span>.
+                        </p>
+          
+                        <p
+                          id="subject-error"
+                          class="form__inline-error"
+                          aria-live="off"
+                        ></p>
+          
+                        <div class="form__input-container">
+                          <input
+                            id="subject"
+                            name="subject"
+                            class="form__input"
+                            required
+                            aria-describedby="subject-hint subject-error"
+                          />
+          
+                          <div class="form__icon-container">
+                            <span class="form__icon form__icon--valid">
+                              <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                            <span class="form__icon form__icon--invalid">
+                              <i class="fa-solid fa-circle-xmark" aria-hidden="true"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="form__item">
+                        <label class="form__label" for="message">Message</label>
+                        <p id="message-hint" class="form__hint">
+                          Hint: with at least 10 characters. Example:
+                          <span class="form__hint--example"
+                            >Hello! I'm interested in your job</span
+                          >.
+                        </p>
+          
+                        <p
+                          id="message-error"
+                          class="form__inline-error"
+                          aria-live="off"
+                        ></p>
+          
+                        <div class="form__input-container">
+                          <textarea
+                            id="message"
+                            name="message"
+                            class="form__input form__textarea"
+                            rows="5"
+                            cols="50"
+                            required
+                            minlength="10"
+                            aria-describedby="message-hint message-error"
+                          ></textarea>
+          
+                          <div class="form__icon-container">
+                            <span class="form__icon form__icon--valid">
+                              <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+                            </span>
+                            <span class="form__icon form__icon--invalid">
+                              <i class="fa-solid fa-circle-xmark" aria-hidden="true"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <button class="form__button">Send message</button>
                     </form>
-                </div>
+                  </div>
             </div>
         </section>
 

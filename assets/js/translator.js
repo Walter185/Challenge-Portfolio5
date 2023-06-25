@@ -17,6 +17,7 @@ var presentacionElement = document.getElementById('presentacion');
 var about2Element = document.getElementById('about2');
 var about3Element = document.getElementById('about3');
 var about4Element = document.getElementById('about4');
+var contact2Element = document.getElementById('contact2')
 
 var currentLang = 'es';
 
@@ -30,6 +31,8 @@ switchLangButton.addEventListener('click', function() {
     aboutElement.textContent = 'About me';
     projectsElement.textContent = 'Projects';
     contactElement.textContent = 'Contact';
+    contact2Element.textContent = 'Contact';
+
     skillsElement.textContent = 'Skills';
     skills2Element.textContent = 'Skills';
     training2Element.textContent = 'Academic Training';
@@ -51,6 +54,8 @@ switchLangButton.addEventListener('click', function() {
     projectsElement.textContent = 'Proyectos';
     trainingElement.textContent = 'Formación';
     contactElement.textContent = 'Contacto';
+    contact2Element.textContent = 'Contacto';
+
     skillsElement.textContent = 'Habilidades';
     training2Element.textContent = 'Formación Académica';
     projects2Element.textContent = 'Proyectos';
