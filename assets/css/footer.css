@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    margin-bottom: -25px;
+    background-color: rgb(163, 163, 163);
+    padding: 20px;
+}
+
+.footer__rodape {
+    color: black;
+    font-size:.8em;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.footer__rodape a{
+    color: black;
+}
+.footer__rodape a:hover{
+    color: grey;
+    background-color: white;
+    font-size: 110%;
+}
+
+@media screen and (min-width: 0){
+
+}
+
+@media screen and (min-width: 768px){
+
+  }
+
+@media screen and (min-width: 992px){
+
+}

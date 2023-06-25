@@ -170,5 +170,4 @@ form.addEventListener("submit", (e) => {
   });
   document.getElementById("myForm").submit();
   form.reset();
-  console.log("Form sent successfully!");
 });

@@ -76,8 +76,8 @@
     margin-right: 20px;
   }
   @keyframes animado {
-    40% {
-      left: 40%;
+    28% {
+      left: 28%;
       color: rgb(201, 141, 12);
     }
   
@@ -132,4 +132,16 @@
   .menu__logo {
     display: block;
   }
+}
+
+@media screen and (min-width: 0){
+
+}
+
+@media screen and (min-width: 768px){
+
+  }
+
+@media screen and (min-width: 992px){
+
 }

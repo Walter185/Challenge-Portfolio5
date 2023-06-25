@@ -136,3 +136,15 @@ Utiliza las referencias de los breakpoints @media abajo */
 /*Footer*/
 
 }
+
+@media screen and (min-width: 0){
+
+}
+
+@media screen and (min-width: 768px){
+
+  }
+
+@media screen and (min-width: 992px){
+
+}

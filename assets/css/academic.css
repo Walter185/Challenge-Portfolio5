@@ -28,9 +28,9 @@
 
 .academic__courses__item__img{
     background-color: white;
-    width: 250px;
+    width: 12rem;
     padding: 2px;
-    height: 180px;
+    height: 10rem;
     text-align: center;
     padding-top: 40px;
     margin-top: 30px;
@@ -40,13 +40,25 @@
     list-style: none;
 }
 .academic__courses__item__img img{
-    width: 15rem;
+    width: 12rem;
     margin-top: -10px;
 }
 #programa{
-    width: 190px;
+    width: 10rem;
     margin-top: -20px;
 }
 #codo{
-    width: 230px;
+    width: 10rem;
+}
+
+@media screen and (min-width: 0){
+
+}
+
+@media screen and (min-width: 768px){
+
+  }
+
+@media screen and (min-width: 992px){
+
 }
