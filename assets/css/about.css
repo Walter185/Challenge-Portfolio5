@@ -6,9 +6,10 @@
 
 }
 
-.about__container {
+.about {
     display: block;
-    margin-left: 20px;
+    width: 100%;
+    justify-content: center;
 }
 .about__title{
     margin-block: 1em .5em;
@@ -17,23 +18,30 @@
 }
 .about__paragraph {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-top: 20px;
+    width: 100%;
 }
 
-.about__signature {
-    margin-left: 800px;
-    padding: 30px;
-}
+
 
 @media screen and (min-width: 0){
-
+    .about__signature {
+        margin-left: 400px;
+        padding: 30px;
+    }
 }
 
 @media screen and (min-width: 768px){
-
+    .about__signature {
+        margin-left: 500px;
+        padding: 30px;
+    }
   }
 
 @media screen and (min-width: 992px){
-
+    .about__signature {
+        margin-left: 800px;
+        padding: 30px;
+    }
 }
