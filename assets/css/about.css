@@ -6,8 +6,20 @@
 
 .about__container {
     display: block;
+    margin-left: 20px;
 }
-.about_title{
+.about__title{
     margin-block: 1em .5em;
+    margin-bottom: 10px;
 
+}
+.about__paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.about__signature {
+    margin-left: 800px;
+    padding: 30px;
 }

@@ -7,8 +7,7 @@ coloque nas sessões indicadas*/
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+   --color-de-link: #000;
 }
 
 body {
@@ -17,14 +16,13 @@ body {
     background-image: url('../imagenes/fondo.png');
     font-family: 'Raleway';
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
     line-height: 1;
 }
 a{
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--color-de-link);
 }
-
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
 Lo que es el BEM?

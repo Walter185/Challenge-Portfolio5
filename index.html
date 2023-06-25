@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets//css/skills.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/hobbies.css">
+    <link rel="stylesheet" href="assets//css/experience.css">
+    <link rel="stylesheet" href="assets/css/academic.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -34,8 +36,8 @@
             </div>
             <ul id="links" class="menu__list hide">
                 <li class="menu__list__item"><a href="#sobre-mi" id="about">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills" id="skills">Habilidades</a></li>
-                <li class="menu__list__item"><a href="#hobbies" id="hobbies">Pasatiempos</a></li>
+                <li class="menu__list__item"><a href="#skills2" id="skills">Habilidades</a></li>
+                <li class="menu__list__item"><a href="#hobbies2" id="hobbies">Pasatiempos</a></li>
                 <li class="menu__list__item"><a href="#formacion" id="training">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp" id="projects">Proyectos</a></li>
                 <li class="menu__list__item"><a href="#contacto" id="contact">Contacto</a></li>
@@ -50,15 +52,16 @@
             <div class="title__container">
                 <h2 class="title__bio" id="title">Hola, mi nombre es Walter y hago desarrollo web</h2>
                 
-                <h3 class="title__subsection">Soy Full-Stack y actualmente participando del proyecto Oracle ONE de Alura. Además, me estoy especializando en CyberSeguridad con IBM SkillSBuild.</h3>
+                <h3 class="title__subsection" id="presentacion">Soy Full-Stack y actualmente participando del proyecto Oracle ONE de Alura. Además, me estoy especializando en CyberSeguridad con IBM SkillSBuild.</h3>
             <div class="title__btn-download__container">
                     <a
                       class="title__btn-download"
                       href="https://drive.google.com/file/d/1U6GozVXLQNiSFFimEc-mzh3PXAA_CRLy/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
+                      id="download"
                     >
-                      Download CV
+                      Descargar CV
                       <i
                         class="fa-solid fa-download title__button-icon"
                         aria-hidden="true"
@@ -68,9 +71,9 @@
 
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/Walter185" target="_blank" >Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/walter-liendo-7204b854" target="_blank" >Linkedin <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://instagram.com/walterliendook?igshid=MzNlNGNkZWQ4Mg==" target="_blank" >Instagram <img src="assets\arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -81,17 +84,18 @@
     <!-- Sección sobre mi -->
     <section class="about" id="sobre-mi">
         <div class="about__container">
-            <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+            <h3 class="about__title" id="about2">Sobre mi</h3>
+            <p class="about__paragraph" id="about3"> Apasionado por la tecnologia y todo lo que uno puede llegar a crear con ella. Imparable en la búsqueda de nuevas herramientas que puedan hacer mi labor más apreciable por mis clientes.  </p>
+            <p class="about__paragraph" id="about4"> Actualmente me encuentro trabajando con forma freelance, pero me encuentro abierto a un puesto part-time o full-time asincrono. </p>
+
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
+            <img src="assets\signature.png" class="about__signature">
         </div>
     </section>
 
     <!-- Sección de Skills -->
     <section class="skills" id="skills">
-        <h3 class="skills__title">Skills</h3>
+        <h3 class="skills__title" id="skills2">Habilidades</h3>
             <div class="skills__line">
                 <div class="skills__box">
                   <img src="assets/imagenes/html5.svg"/>
@@ -117,11 +121,11 @@
                     <img src="assets/imagenes/react.svg" alt=""/>
                         <p class="skills__name">React</p>
                 </div>
-
+<!-- 
                 <div class="skills__box">
                    <img src="assets/imagenes/css3.svg" alt=""/>
                         <p class="skills__name">CSS</p>
-                </div>
+                </div> -->
                 <div class="skills__box">
                     <img src="assets/imagenes/mysql.svg" alt=""/>
                          <p class="skills__name">MySql</p>
@@ -131,7 +135,7 @@
 
     <!-- Sección de Hobbies -->
     <section class="hobbies" id="hobbies">
-        <h3 class="hobbies__title">Hobbies</h3>
+        <h3 class="hobbies__title" id="hobbies2">Pasatiempos</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <img src="assets/imagenes/gym.png" alt="club" width="50px"/>
@@ -168,30 +172,46 @@
 
         <!-- Sección de Formación académica -->
     <section class="academic" id="formacion">
-        <h2 class="academic__title" >Formación académica</h2>
+        <h2 class="academic__title" id="training2">Formación académica</h2>
         <div class="academic__courses">
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
+            <div class="academic__courses__box" >
+                <ul class="academic__courses__list" >
                     <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\ufpr_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Análisis de datos</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
+                    <li class="academic__courses__item__img"><img src="assets/imagenes/ibm.jpg" alt="logo" class="logoImg"></li>
+                    <li class="academic__courses__item__title"><h4>CyberSeguridad - Security+</h4></li>
+                    <li class="academic__courses__item__subtitle"><a href="./assets/pdf/ibm.pdf" target="_blank">IBM 2023 - <u>Ver certificado</u></li>
                 </ul>
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!--Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2019 - Alura</p></li>
+                    <li class="academic__courses__item__img"><img src="assets/imagenes/alura__logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Front-End React</h4></li>
+                    <li class="academic__courses__item__subtitle"><a href="./assets/pdf/alura.pdf" target="_blank">Alura Latam 2022 <u>Ver certificado</u></a><p></p></li>
                 </ul>
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Posgrado en diseño</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>En curso - UFRJ</p></li>
+                    <li class="academic__courses__item__img"><img src="assets/imagenes/programa.png" alt="argentina programa" id="programa"></li>
+                    <li class="academic__courses__item__title"><h4>Developer Full-Stack JavaScript</h4></li>
+                    <li class="academic__courses__item__subtitle"><a href="./assets//pdf/argentina.pdf" target="_blank">Argentina Programa 2022 <u>Ver certificado</u></a></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="assets/imagenes/codoacodo.png" alt="codo" id="codo"></li>
+                    <li class="academic__courses__item__title"><h4>Front-End Python</h4></li>
+                    <li class="academic__courses__item__subtitle"><a href="./assets//pdf/cert-codo.pdf" target="_blank">Codo a Codo 2022 - <u>Ver certificado</u></a></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="assets/imagenes/codoacodo.png" alt="codo" id="codo"></li>
+                    <li class="academic__courses__item__title"><h4>Inglés para Programadores</h4></li>
+                    <li class="academic__courses__item__subtitle"><a href="./assets//pdf/ingles.pdf" target="_blank">Ingles 2022 -<u>Ver certificado</u></a></li>
                 </ul>
             </div>
         </div>
@@ -199,61 +219,52 @@
 
     <!-- Sección de Experiencia Profesional/Proyectos-->
     <section class="experience" id="xp">
-        <h2 class="experience__section__title" >Experiencia Profissional</h2>
+        <h2 class="experience__section__title" id="projects2" >Proyectos</h2>
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\decod_print.png">
-            <div class="experience__info"
+            <img class="experience__img" src="assets/imagenes/encriptador.jpeg">
+            <div class="experience__info">
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/Walter185/Challenge-Oracle-ONE.git"><button class="experiencia__botao--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://walter185.github.io/Challenge-Oracle-ONE/"><button class="experience__botao--demo">Ver Demo</button></a></span>
                     </div>
             </div>
         </div>  
 
-        <div class="experiencie__box">
+        <div class="experiencie__box2">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\forca_print.png">
-            <div class="experience__info"
-                <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
+            <div class="experience__info">
+                <h2 class="experience__title">E-commerce </h2>
+                <h3 class="experience__text">Proyecto WADABI</h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/Walter185/WADABI.git"><button class="experiencia__botao--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://clinquant-toffee-dfe023.netlify.app/"><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
+            <img class="experience__img2" src="assets/imagenes//wadabi.png">
+            
         </div>  
 
-        <div class="experience__box">
+        <div class="experience__box3">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\secretcode_print.png">
-            <div class="experience__info-container"
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
+            <img class="experience__img" src="assets/imagenes/mainero.png">
+            <div class="experience__info-container">
+                <h2 class="experience__title">Mainero</h2>
+                <h3 class="experience__text3">Proyecto Privado</h3>
                     <div class="experience__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a href="#"><button class="experiencia__botao--repo" disabled>Repo Privado</button></a></span>
+                            <span class="experience__demo"><a href="https://mainero.uy"><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
         </div>  
 
-        <div class="experience__box">
-            <img class="experience__img" src="assets\forca2_print.png">
-            <div class="experience__info-container"
-            <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-        </div>
-        </div>  
+    </section>  
+        
 
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
