@@ -5,6 +5,8 @@
     padding-bottom: 20px;
     margin-left: 30px;
     align-items: center;
+    justify-content: center;
+
 }
 .experience__section__title {
     text-align: center;
@@ -27,12 +29,7 @@
     margin-left: 30px;
     align-items: center;
 }
-.experience__img3{
-    width: 60em;
-    display: flex;
-    margin-right: 30px;
-    margin-left: 10px;
-}
+
 .experience__img{
     width: 60em;
     display: flex;
@@ -45,23 +42,46 @@
     margin-right: 30px;
     margin-left: 30px;
 }
+
+.experience__img3{
+    width: 55em;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 10px;
+}
 .experience__text{
     font-weight: 300;
 }
 .experiencia__botao--repo{
     color: rgb(97, 97, 250);
-    font-size: larger;
-    background: transparent;
+    background: white;
     padding: 20px;
     cursor: pointer;
     border-color: rgb(97, 97, 250);
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
 }
 .experience__botao--demo{
     color: white;
-    font-size: larger;
     background: rgb(97, 97, 250);
     padding: 20px;
     cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px grey;
+    transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
+}
+
+.experiencia__botao--repo:hover{
+    color: white;
+    background: rgb(97,97,250);
+}
+
+.experience__botao--demo:hover{
+    color: rgb(97, 97, 250);
+    background: white;
 }
 .experience__info-container{
     margin-top: -250px;

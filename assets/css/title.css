@@ -37,15 +37,15 @@
     font-size: 1.1em;
     font-weight: 600;
     color: white;
-    background-color: green;
+    background: rgb(97, 97, 250);
     border-radius: 5px;
     box-shadow: 0 3px 6px grey;
     transition: background-color .3s ease-in, transform .3s ease-out, box-shadow .5s ease-in;
 }
 
 .title__btn-download:hover {
-    background-color: white;
-    color: green;
+    background: white;
+    color: rgb(97, 97, 250);
 }
 .title__network {
     display: flex;

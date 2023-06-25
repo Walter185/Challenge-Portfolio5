@@ -8,6 +8,16 @@ coloque nas sessões indicadas*/
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --color-de-link: #000;
+   
+  --error: #CF6679;
+  --success: #93D13C;
+  --border-radius: .5em;
+  --shadow: #000000;
+  --text-on-surface: transparent;
+  --text-on-error: #918f8f;
+  --text-high-emphasis: #ffffffde;
+  --text-medium-emphasis: black;
+  --text-disabled: #FFFFFF61;
 }
 
 body {

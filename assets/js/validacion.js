@@ -168,8 +168,7 @@ form.addEventListener("submit", (e) => {
   formItems.forEach((node) => {
     clearValidationStates({ node });
   });
-
+  document.getElementById("myForm").submit();
   form.reset();
-
   console.log("Form sent successfully!");
 });
