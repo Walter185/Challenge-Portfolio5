@@ -75,5 +75,7 @@
   }
 
 @media screen and (min-width: 992px){
-
+    .academic__title{
+        margin-bottom: 50px;
+    }
 }

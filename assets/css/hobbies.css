@@ -39,5 +39,7 @@
   }
 
 @media screen and (min-width: 992px){
-
+    .hobbies__title{
+        margin-bottom: 60px;
+    }
 }

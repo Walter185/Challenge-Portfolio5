@@ -80,7 +80,18 @@
 }
 
 @media screen and (min-width: 768px){
-
+    .title__subsection {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 30px;
+        width: 100%;
+    }
+    .title__bio{
+        font-size: large;
+        display: flex;
+        font-weight: bold;
+        width: 100%;
+    }
   }
 
 @media screen and (min-width: 992px){

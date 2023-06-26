@@ -72,10 +72,6 @@
   background-color: transparent;
 }
 
-.form__input-container {
-  position: relative;
-  margin-top: .15em;
-}
 
 .form__input {
   width: 250px;
