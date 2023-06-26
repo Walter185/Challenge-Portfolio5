@@ -37,7 +37,6 @@
   flex-direction: column;
   gap: 1em;
   width: 100%;
-  max-width: 450px;
   padding: 1em 1.5em;
   margin: 0 auto;
   border-radius: var(--border-radius);
@@ -181,6 +180,14 @@
     margin-top: 30px;
     margin-left: 10px;
     padding-bottom: 20px;
+}
+.contact__form{
+  font-size: small;
+  justify-content: center;
+  margin-top: 30px;
+}
+.form__input {
+  width: 200px;
 }
 }
 @media screen and (min-width: 768px){
