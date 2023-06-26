@@ -52,6 +52,9 @@
   font-size: 1em;
 }
 
+#name{
+  margin-top: 30px;
+}
 .form__hint {
   display: none;
   font-size: .83em;
@@ -127,6 +130,7 @@
   margin-left: auto;
   font-size: 1.03em;
   font-weight: 600;
+  margin-bottom: 30px;
   color: white;
   background: rgb(97, 97, 250);
   border-radius: 5px;
@@ -177,18 +181,15 @@
 
 @media screen and (min-width: 0){
   .contact {
+    width: 100%;
     margin-top: 30px;
     margin-left: 10px;
     padding-bottom: 20px;
 }
 .contact__form{
   font-size: small;
-  justify-content: center;
-  margin-top: 30px;
 }
-.form__input {
-  width: 200px;
-}
+
 }
 @media screen and (min-width: 768px){
   .contact{
