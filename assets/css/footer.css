@@ -1,5 +1,5 @@
 .footer{
-    width: 100vw;
+    width: 100%;
     margin-bottom: -25px;
     background-color: rgb(163, 163, 163);
     padding: 20px;
@@ -23,13 +23,19 @@
 }
 
 @media screen and (min-width: 0){
-
+    .footer {
+        width: 375px;
+    }
 }
 
 @media screen and (min-width: 768px){
-
+    .footer {
+        width: 100%;
+    }
   }
 
 @media screen and (min-width: 992px){
-
+    .footer {
+        width: 100%;
+    }
 }
